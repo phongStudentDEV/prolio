@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.svg" alt="website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#ban-than">Bản Thân</a></li>
+            <li class="navbar__link"><a href="#things">Các Dự Án</a></li>
+            <li class="navbar__link"><a href="#works">Kỹ Năng</a></li>
+            <!-- <li class="navbar__link"><a href="#works">Các Dự Án</a></li> -->
+            <a href="#footer"><button class="navbar__btn">Liên Hệ</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <!-- <img src="./img/banner-img.png" alt="illustration of women" /> -->
+          <img src="./img/img-banner01.png" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>
+            Xin chào, tôi là<br />
+            Nguyễn Hồng Phong
+          </h1>
+          <h3>software developer</h3>
+
+          <h4>Backend Java Developer</h4>
+          <!-- <h3
+            class="text-gray-300 tracking-[0.5rem] uppercase pb-1 text-xs sm:text-base"
+            style="opacity: 1; transform: none"
+          > -->
+          <!-- software developer -->
+          <!-- </h3> -->
+          <!-- <a href="#"><button class="banner__btn">View More</button></a> -->
+          <div class="banner__socials">
+            <a
+              href="https://github.com/phongStudentDEV?tab=repositories"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.facebook.com/phongnguyen7958" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="tel:0848792379"> <i class="fas fa-phone-alt"></i></a>
+            <a href="#qr-zalo"> <i class="fas fa-link">zalo</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ban-than">
+      <div class="container">
+        <!-- dec -->
+        <div class="ban-than__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="ban-than__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Giới Thiệu Bản Thân</h2>
+        <!-- item 1 -->
+        <div class="ban-than__item">
+          <!-- img -->
+          <img src="./img/anh-dai-dien.png" alt="anh dai dien" />
+          <!-- text -->
+          <div class="ban-than__item--heading">
+            <h3>Quá trình học tập và làm việc.</h3>
+            <p>
+              Tôi là sinh viên năm cuối Trường Cao Đẳng FPT Polytechnic (ra
+              trường vào tháng 01/2024). Trong quá trình học và đi thực tập tôi
+              đã tích luỹ thêm kinh nghiệm phát triển web. Hiện tại tôi đã làm
+              việc trong vài dự án nhỏ khác nhau ứng dụng trong ngành du lịch,
+              kinh doanh cựa hàng. Bộ kỹ năng bao gồm: Back-End: Java. Font-End:
+              Jsp, Thymeleaf, ReactJS. Database: SQL Server, My SQL, Hibernate
+              ... Khác: Github, Trello, Postman.<br />
+              Tôi đã hoàn thành khoá thực tập với ngôn ngữ Backend Java. Tôi
+              luôn vui vẻ hoà đồng, hoà nhập nhanh với văn hoá công ty. Luôn có
+              niềm đam mê công nghệ và sẵn sàng mở rộng kiến thức cũng như hoàn
+              thiện kỹ năng của mình.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Dự Án Cá Nhân</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/web-ban-dien-thoa-1.png" alt="trang-chu" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Website bán điện thoại.</h3>
+            <p>09/2023 - 12/2023</p>
+            <p>
+              - Thiết kế và phát triển website bằng ngôn ngữ Java Spring Boot +
+              ReactJS. Sử dụng các công nghệ tối giản để nâng cao trải nghiệm
+              người dùng.
+            </p>
+            <p>
+              - Sử dụng security để bảo mật thông tin người dùng, thêm vào đó
+              tích hợp api thanh toán VNPAY, api giao hàng nhanh để có thêm
+              nhiều lựa chọn tiện ích cho khách hàng.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/website-shop-dunk.png" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Website bán điện thoại.</h3>
+            <p>07/2023 - 09/2023</p>
+            <p>
+              - Thiết kế và phát triển website bằng Java spring + thymeleaf. Sử
+              dụng các giao diện thân thiện với người dùng và sử dụng security
+              để bảo mật thông tin người dùng.
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img
+            src="./img/website-cho-thue-xe.png"
+            alt="illustration of computer"
+          />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Website cho thuê xe.</h3>
+            <p>05/2023 - 06/2023</p>
+            <p>
+              - Thiết kế và phát triển website bằng html, css, javascript. Sử
+              dụng các giao diện thân thiện giúp khách hàng liên hệ thuê xe
+              nhanh hơn.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- dec -->
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Kỹ Năng</h2>
+        <!-- img -->
+        <!-- <div class="works__img">
+          <div class="works__img--single">
+            <img src="./img/work-1.png" alt="bag" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-2.png" alt="plate" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-3.png" alt="women" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/work-4.png" alt="piggy bank" />
+          </div>
+        </div> -->
+        <div class="works__img">
+          <div class="works__img--single">
+            <img src="./img/download.png" alt="bag" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/mysql2.webp" alt="bag" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/sqlserver.jpeg" alt="bag" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/github2.png" alt="bag" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/postmanl.png" alt="plate" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/javascript2.jpeg" alt="women" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/reactjs2.png" alt="piggy bank" />
+          </div>
+          <div class="works__img--single">
+            <img src="./img/thymlead.png" alt="piggy bank" />
+          </div>
+        </div>
+        <!-- btn -->
+        <!-- <div class="works__btn">
+          <a href="#"><button>View Works</button></a>
+        </div> -->
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img.png" alt="illustration" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Liên hệ:</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:0848792379">
+              <i class="fas fa-phone-alt"></i>
+              <p>0848.79.23.79</p>
+            </a>
+            <a href="mailto:nguyenhongphong7958@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <p>nguyenhongphong7958@gmail.com</p>
+            </a>
+          </div>
+          <div id="qr-zalo" class="footer__contact--zalo">
+            <img src="./img/qrzalo.jpg" alt="QR zalo" />
+          </div>
+          <div class="banner__socials">
+            <a
+              href="https://github.com/phongStudentDEV?tab=repositories"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.facebook.com/phongnguyen7958" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="tel:0848792379"> <i class="fas fa-phone-alt"></i></a>
+
+            <!-- <a href="tel:0848792379"> <i class="fas fa-link"> zalo</i></a> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
