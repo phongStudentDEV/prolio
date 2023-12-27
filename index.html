@@ -11,6 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/nut-goi.css" />
+
+    <style>
+      /* CSS để cố định nút ở góc dưới bên phải */
+      .fixed-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999; /* Đảm bảo nút hiển thị trên tất cả nội dung khác */
+      }
+    </style>
 
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
@@ -30,8 +41,8 @@
           <!-- links -->
           <ul class="navbar__links">
             <li class="navbar__link"><a href="#ban-than">Bản Thân</a></li>
-            <li class="navbar__link"><a href="#things">Các Dự Án</a></li>
-            <li class="navbar__link"><a href="#works">Kỹ Năng</a></li>
+            <li class="navbar__link"><a href="#cac-du-an">Các Dự Án</a></li>
+            <li class="navbar__link"><a href="#ky-nang">Kỹ Năng</a></li>
             <!-- <li class="navbar__link"><a href="#works">Các Dự Án</a></li> -->
             <a href="#footer"><button class="navbar__btn">Liên Hệ</button></a>
           </ul>
@@ -119,7 +130,8 @@
       </div>
     </section>
     <!-- things -->
-    <section id="things">
+
+    <section id="cac-du-an">
       <div class="container">
         <!-- dec -->
         <div class="things__dec">
@@ -187,7 +199,8 @@
       </div>
     </section>
     <!-- works -->
-    <section id="works">
+
+    <section id="ky-nang">
       <div class="container">
         <!-- dec -->
         <div class="works__dec">
@@ -245,6 +258,27 @@
         </div> -->
       </div>
     </section>
+    <div
+      class="quick-alo-phone quick-alo-green quick-alo-show"
+      id="quick-alo-phoneIcon"
+      style="left: 0px; top: 50%"
+    >
+      <a title="Gọi Ngay">
+        <!-- <div class="quick-alo-ph-circle"></div> -->
+        <div class="quick-alo-ph-circle-fill"></div>
+        <div
+          class="quick-alo-ph-img-circle"
+          style="display: flex; align-items: center"
+        >
+          <!-- <i class="fas fa-phone" style="text-align: center; margin: auto"></i> -->
+          <i
+            id="scrollTopBtn"
+            class="fas fa-arrow-up"
+            style="text-align: center; margin: auto"
+          ></i>
+        </div>
+      </a>
+    </div>
     <!-- footer -->
     <footer id="footer">
       <div class="container">

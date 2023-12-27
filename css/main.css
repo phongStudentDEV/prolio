@@ -399,13 +399,13 @@ header {
 }
 
 /* === Things === */
-#things {
+#cac-du-an {
   position: relative;
   overflow-x: hidden;
   margin-top: 5em;
 }
 
-#things h2 {
+#cac-du-an h2 {
   text-align: center;
   color: var(--gray);
   margin-bottom: 3em;
@@ -482,7 +482,7 @@ header {
 }
 
 /* === Works === */
-#works {
+#ky-nang {
   padding-top: 10em;
   position: relative;
   overflow-x: hidden;
@@ -498,7 +498,7 @@ header {
   /* margin-bottom: 2em; */
 }
 
-#works h2 {
+#ky-nang h2 {
   text-align: center;
   color: var(--gray);
 }
@@ -542,7 +542,7 @@ header {
 }
 
 @media (min-width: 62em) {
-  #works h2 {
+  #ky-nang h2 {
     margin-bottom: 3em;
   }
   .works__img {
@@ -636,4 +636,7 @@ footer {
     width: 25%;
     margin-top: 1em;
   }
+}
+#scrollTopBtn {
+  background-color: none;
 }
